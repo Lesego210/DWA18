@@ -1,19 +1,25 @@
-// src/App.jsx
-import React from 'react';
-import { Routes, Route } from 'react-router-dom';
-import Home from './Home';
-import Login from './Login';
-import ShowDetail from './pages/ShowDetail';
-import Favourites from './Favourites';
+// import PodcastContainer from './PodcastContainer.jsx'
+import LoginPage from './Login.jsx'
+import Test from './Success.jsx'
+import { BrowserRouter as Router, Route, Routes, } from 'react-router-dom';
+
+
 
 const App = () => {
+  
+
+
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/login" element={<Login />} />
-      <Route path="/show/:id" element={<ShowDetail />} />
-      <Route path="/favourites" element={<Favourites />} />
-    </Routes>
+    <Router>
+      <Routes>
+
+        <Route path="/" element={<LoginPage />} />
+        <Route
+          path="/podcasts"
+          element={<Test/>}
+        />
+      </Routes>
+    </Router>
   );
 };
 
