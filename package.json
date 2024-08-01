@@ -1,5 +1,5 @@
 {
-  "name": "mosmol938-clk2302-groupb1-mosesmolepo-dwacapstone-main",
+  "name": "my-vite-project",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,18 +10,11 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@emotion/react": "^11.13.0",
-    "@emotion/styled": "^11.13.0",
-    "@mui/icons-material": "^5.16.6",
-    "@mui/material": "^5.16.6",
-    "@supabase/auth-ui-react": "^0.4.7",
-    "@supabase/auth-ui-shared": "^0.1.8",
     "@supabase/supabase-js": "^2.45.0",
-    "prop-types": "^15.8.1",
+    "axios": "^1.7.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^6.25.1",
-    "uuid": "^10.0.0"
+    "react-router-dom": "^6.25.1"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
